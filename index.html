@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Devine le Numéro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Matala3hach rake bhim</h1>
+        <p>Joueur 1, entrez un numéro à 4 chiffres :</p>
+        <input type="text" id="inputNumberg">
+        <button onclick="generateRandomNumber()">Valider</button>
+        <p>Joueur 2, devinez le numéro à 4 chiffres :</p>
+        <input type="text" id="inputNumber">
+        <button onclick="checkNumber()">Vérifier</button>
+        <p id="result"></p>
+    
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
